@@ -1,0 +1,126 @@
+<!-- 
+.___  ___.  ______  
+|   \/   | |____  | 
+|  \  /  |     / /  
+|  |\/|  |    / /   
+|  |  |  |   / /    
+|__|  |__|  /_/     
+                     -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="A web created to hold files of a little CTF files" />
+        <meta name="author" content="M7" />
+        <title>Feel the M7</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="https://www.linkedin.com/in/miguel-moreno-pastor">M7</a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Feel the M7</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Will you be able to complete all the challenges</h2>
+                        <a class="btn btn-primary" href="#challenge">Accept the challenge</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Challenge-->
+        <section class="about-section text-center" id="challenge">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">The challenge</h2>
+                        <p class="text-white-50">
+                            You will start the challenge downloading a compressed file. The name of it will be <i>caja de pandora</i>. You will have to try your 
+                            best in order to get around the challenges present in it, will you be able to recover the hidden message?. Best of the luck analyst.
+                            <br>
+                            <a onclick="startChallenge()" href="">Start the challenge</a>
+                            <br>
+                            <br>
+                            Tip: Try typing givemeTheFirstPassword() on the console ;)
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="" alt="" />
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/gift/giveUp.gif" alt="giveUpImage" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Need help?</h4>
+                            <p class="text-black-50 mb-0">
+                                This challenge will have a write-up, if you are stuck in some layer of the
+                                <i>caja de pandora</i> do not hesitate and <a href="https://www.linkedin.com/in/miguel-moreno-pastor">contact me</a> for a clue.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hall-->
+        <section class="Hall-section" id="Hall">
+            <div class="container px-4 px-lg-5">
+                <h1>Hall of fame</h1>
+                <table class="table">
+                    <thread>
+                        <tr>
+                            <th>Position</th>
+                            <th>Name</th>
+                            <th>Completed on</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <th scope="row">0</th>
+                            <td>Can be u</th>
+                            <td>-</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Developed by M7</div></footer>
+        <!-- Bootstrap Imports-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script>
+            var count = 0;
+            const stopThisRightNow = window.setInterval(() => {
+                if (!trollme && count < 1)
+                {
+                    alert ("Don't you like rick or what?");
+                    count++;
+                }
+                else if (!trollme)
+                {
+                    alert("Tip: May try to disable me");
+                    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                }
+            }, 1000);
+        </script>
+    </body>
+</html>
