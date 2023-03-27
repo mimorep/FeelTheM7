@@ -18,7 +18,9 @@ A Write-up with the solution will be launched after 1 month of the deployment of
 
 To start the challenge go here:
 
-
+```
+https://mimorep.github.io/FeelTheM7
+```
 
 # Support
 
