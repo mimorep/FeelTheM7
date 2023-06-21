@@ -63,6 +63,58 @@
   box-sizing: border-box;
 }
 
+.tooltipHint{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: black;
+  text-align: center;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltipHint:hover{
+  visibility: visible;
+}
+
+/*
+  Golden medal implementation
+*/
+.goldenMedal{
+  color: black;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #0b1826 !important;
+  color:transparent;
+  -webkit-background-clip: text;
+  animation: move 300s linear infinite;  
+  transition: .3s linear;
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%
+  );
+}
+
+@keyframes move {
+  100% {
+    background-position: 20000px 0;
+  }
+}
+
+.goldenMedal:hover{
+  background-image: black;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
